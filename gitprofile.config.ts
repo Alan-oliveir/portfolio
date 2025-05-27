@@ -36,9 +36,15 @@ const CONFIG = {
           title: 'Projetos',
           description:
             'Este documento reúne e organiza meus principais projetos públicos no GitHub, separados por categoria e stack. Aqui você encontrará desde projetos autorais até trabalhos acadêmicos e estudos de cursos.',
-          imageUrl:
-            '',
+          imageUrl: '',
           link: 'https://github.com/Alan-oliveir/Projetos/tree/main',
+        },
+        {
+          title: 'Sentiment Radar',
+          description: 
+            'Aplicação web interativa desenvolvida em Python com Streamlit, que permite ao usuário pesquisar a percepção pública sobre produtos, serviços ou marcas com base em postagens extraídas do Reddit.',
+          imageUrl: '',
+          link: 'https://github.com/Alan-oliveir/Sentiment_Radar_APP',
         },
       ],
     },
@@ -112,7 +118,7 @@ const CONFIG = {
   blog: {
     source: 'dev', // medium | dev
     username: 'alan_oliveiragoncalves', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+    limit: 1, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
